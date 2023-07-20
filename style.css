@@ -28,7 +28,7 @@ body {
 /* container */
 .inputcol {
     display: grid;
-    column-gap: 5px;
+/*     column-gap: 5px; */
     grid-template-columns: 60% 10%;
     justify-content: center;
     margin-top: 10px;
@@ -39,7 +39,7 @@ body {
     height: 50px;
     max-width: 100%;
     min-width: 100%;
-    border-radius: 10px;
+    border-radius:10px 0 0 10px;
     border-color: #333;
     font-size: 20px;
     padding: 10px 10px;
@@ -69,7 +69,7 @@ body {
 }
 
 .buttoninput {
-    border-radius: 10px;
+    border-radius:0 10px 10px 0;
     border-color: #333;
     background-color: rgba(212, 217, 245, 0.8);
     font-size: 20px;
